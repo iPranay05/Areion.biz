@@ -1,0 +1,119 @@
+/* GenAI Features Buttons */
+.genai-features-buttons {
+  margin-top: 15px;
+  background-color: rgba(192, 74, 226, 0.05);
+  border-radius: 12px;
+  padding: 15px;
+  border: 1px solid rgba(192, 74, 226, 0.2);
+}
+
+.genai-features-buttons h4 {
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+.feature-buttons-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.feature-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(192, 74, 226, 0.3);
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.feature-button:hover {
+  background-color: rgba(192, 74, 226, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.feature-name {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: #333;
+}
+
+/* Feature Container */
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+}
+
+.feature-header {
+  padding: 10px 15px;
+  border-bottom: 1px solid rgba(192, 74, 226, 0.2);
+  display: flex;
+  align-items: center;
+}
+
+.back-to-chat {
+  background: none;
+  border: none;
+  color: #c04ae2;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.back-to-chat:hover {
+  background-color: rgba(192, 74, 226, 0.1);
+}
+
+/* GenAI Feature Styling */
+.genai-feature-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto;
+  padding: 0 15px 15px 15px;
+}
+
+.genai-feature-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(192, 74, 226, 0.2);
+  margin-bottom: 15px;
+}
+
+.genai-feature-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.genai-feature-header h2 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.genai-feature-content {
+  flex: 1;
+  overflow-y: auto;
+}
