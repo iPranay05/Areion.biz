@@ -202,7 +202,7 @@ const ChatbotPage = () => {
               </div>
               <div className={styles.headerInfo}>
                 <h2>Business Development Assistant</h2>
-                <p>Powered by Gemini 1.5 Flash</p>
+                <p>Powered by Areion</p>
               </div>
             </div>
 
