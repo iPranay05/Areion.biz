@@ -1,13 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
-import "/assets/css/styles.css";
-import "/assets/css/section-fixes.css";
-import "/assets/css/chatbot.css";
-import "/assets/css/genai-features.css";
-import "/assets/css/ai-assistant.css";
-import "/assets/css/chatbot-page.css";
-// External CSS will still need to be loaded via link tags
+// CSS files from public directory should be loaded via link tags in the head
 
 export const metadata: Metadata = {
   title: "Areion | Business Development & Digital Marketing Solutions",
@@ -63,6 +57,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Local CSS resources */}
+        <link rel="stylesheet" href="/assets/css/styles.css" />
+        <link rel="stylesheet" href="/assets/css/section-fixes.css" />
+        <link rel="stylesheet" href="/assets/css/chatbot.css" />
+        <link rel="stylesheet" href="/assets/css/genai-features.css" />
+        <link rel="stylesheet" href="/assets/css/ai-assistant.css" />
+        <link rel="stylesheet" href="/assets/css/chatbot-page.css" />
         {/* External CSS resources */}
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
         <link rel="stylesheet" href="/assets/css/fontawesome.min.css" />
