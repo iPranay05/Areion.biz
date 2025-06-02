@@ -13,16 +13,6 @@ interface Message {
   featureType?: 'content' | 'recommendations' | 'brand' | 'market' | 'leads' | null;
 }
 
-interface GeminiResponse {
-  candidates: Array<{
-    content: {
-      parts: Array<{
-        text: string;
-      }>;
-    };
-  }>;
-}
-
 const ChatbotSection = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([

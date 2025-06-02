@@ -46,7 +46,7 @@ const RealtimeSupportPage = () => {
           <div className="service-section">
             <h2 className="service-section-title">Realtime Support Solutions</h2>
             <p>
-              In today's fast-paced digital world, customers expect immediate assistance. Our realtime support solutions help you meet these expectations with:
+              In today&apos;s fast-paced digital world, customers expect immediate assistance. Our realtime support solutions help you meet these expectations with:
             </p>
             <ul className="service-list">
               <li className="service-list-item">

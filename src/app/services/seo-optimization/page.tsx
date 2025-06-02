@@ -53,7 +53,7 @@ const SEOOptimizationPage = () => {
                 <div className="service-list-icon">🔍</div>
                 <div className="service-list-content">
                   <h5 className="service-list-title">Technical SEO Audit</h5>
-                  <p>Comprehensive analysis of your website's technical aspects to identify and fix issues affecting search performance.</p>
+                  <p>Comprehensive analysis of your website&apos;s technical aspects to identify and fix issues affecting search performance.</p>
                 </div>
               </li>
               <li className="service-list-item">

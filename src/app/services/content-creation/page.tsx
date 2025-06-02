@@ -63,7 +63,7 @@ const ContentCreationPage = () => {
                   <div className="service-list-icon">📸</div>
                   <div className="service-list-content">
                     <h5 className="service-list-title">Social Media Content</h5>
-                    <p>Engaging posts, graphics, and captions tailored to each platform's unique audience and format.</p>
+                    <p>Engaging posts, graphics, and captions tailored to each platform&apos;s unique audience and format.</p>
                   </div>
                 </div>
               </div>

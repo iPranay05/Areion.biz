@@ -46,7 +46,7 @@ const BusinessAutomationPage = () => {
           <div className="service-section">
             <h2 className="service-section-title">How Business Automation Can Transform Your Company</h2>
             <p>
-              By streamlining repetitive tasks with business automation, you can free up your team's time for higher-level strategic thinking. Our automation solutions help you:
+              By streamlining repetitive tasks with business automation, you can free up your team&apos;s time for higher-level strategic thinking. Our automation solutions help you:
             </p>
             <ul className="service-list">
               <li className="service-list-item">

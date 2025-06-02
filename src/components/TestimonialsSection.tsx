@@ -50,7 +50,7 @@ const TestimonialsSection = () => {
       nextTestimonial();
     }, 5000);
     return () => clearInterval(interval);
-  }, []);
+  }, [nextTestimonial]);
 
   return (
     <div className="testimonials-wrapper">
@@ -61,7 +61,7 @@ const TestimonialsSection = () => {
 
       <div className="testimonials-container">
         <div className="testimonial-card">
-          <p>"{testimonials[currentIndex].testimonial}"</p>
+          <p>&quot;{testimonials[currentIndex].testimonial}&quot;</p>
           <div className="testimonial-image-container">
             <Image 
               src={testimonials[currentIndex].image} 

@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
+import "/assets/css/styles.css";
+import "/assets/css/section-fixes.css";
+import "/assets/css/chatbot.css";
+import "/assets/css/genai-features.css";
+import "/assets/css/ai-assistant.css";
+import "/assets/css/chatbot-page.css";
+// External CSS will still need to be loaded via link tags
 
 export const metadata: Metadata = {
   title: "Areion | Business Development & Digital Marketing Solutions",
@@ -56,12 +63,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="stylesheet" href="/assets/css/styles.css" />
-        <link rel="stylesheet" href="/assets/css/section-fixes.css" />
-        <link rel="stylesheet" href="/assets/css/chatbot.css" />
-        <link rel="stylesheet" href="/assets/css/genai-features.css" />
-        <link rel="stylesheet" href="/assets/css/ai-assistant.css" />
-        <link rel="stylesheet" href="/assets/css/chatbot-page.css" />
+        {/* External CSS resources */}
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
         <link rel="stylesheet" href="/assets/css/fontawesome.min.css" />
         <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />

@@ -1,8 +1,8 @@
 // This script updates all service pages to use the new service-page.css styling
 // and ensures consistent alignment across all pages
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 const servicesDir = path.join(__dirname);
 const servicePages = [
