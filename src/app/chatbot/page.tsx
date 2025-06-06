@@ -17,9 +17,9 @@ const ChatbotPage = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'bot',
-      content: 'Hello! I\'m Areion\'s Business Development Assistant powered by Gemini 1.5 Flash. How can I help you today?',
+      content: 'Hello! I\'m Areion\'s Business Development Assistant. How can I help you today?',
       timestamp: new Date(),
-      displayedContent: 'Hello! I\'m Areion\'s Business Development Assistant powered by Gemini 1.5 Flash. How can I help you today?',
+      displayedContent: 'Hello! I\'m Areion\'s Business Development Assistant. How can I help you today?',
     },
   ]);
   const [inputMessage, setInputMessage] = useState('');
