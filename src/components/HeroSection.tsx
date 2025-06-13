@@ -8,9 +8,9 @@ const HeroSection = () => {
       <div className="hero__content">
         <h1 className="title">Work Smartly with Endless Possibilities</h1>
         <p className="text">
-          Grow your presence | Get more leads | Increase sales.
+          Talk to our professionally trained business agent to grow your business.
         </p>
-        <Link href="#services" className="btn btn-primary">Get Started</Link>
+        <Link href="/chatbot" className="btn btn-primary">Chat with AI Assistant</Link>
       </div>
       <div className="hero__img">
         <Image src="/assets/img/Hero1.png" alt="Hero Image" width={600} height={500} />

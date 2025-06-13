@@ -18,7 +18,7 @@ export default function Home() {
         <AboutSection />
         <ServicesSection />
 
-        <PacksSection />
+        {/* <PacksSection /> */}
         <TeamSection />
         <TestimonialsSection />
         <ContactSection />

@@ -33,7 +33,7 @@ const DigitalMarketingPage = () => {
         <h1 className="service-page-title">Digital Marketing</h1>
         <div className="service-icon-container">
           <div className="service-icon-large">
-            <Image src="/assets/img/megaphone.png" alt="Digital Marketing" width={80} height={80} />
+            <Image src="/assets/img/digital_marketing.png" alt="Digital Marketing" width={80} height={80} />
           </div>
           <p className="service-page-description">
             Strategic digital marketing solutions to grow your brand and reach your target audience.

@@ -33,7 +33,7 @@ const SEOOptimizationPage = () => {
         <h1 className="service-page-title">SEO Optimization</h1>
         <div className="service-icon-container">
           <div className="service-icon-large">
-            <Image src="/assets/img/search.png" alt="SEO Optimization" width={80} height={80} />
+            <Image src="/assets/img/SEO.png" alt="SEO Optimization" width={80} height={80} />
           </div>
           <p className="service-page-description">
             Boost your online visibility and drive organic traffic with our expert SEO services.

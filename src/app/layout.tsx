@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "Areion",
     images: [
       {
-        url: "/assets/img/og-image.jpg",
+        url: "/assets/img/Favicon.png",
         width: 1200,
         height: 630,
         alt: "Areion - Business Development Solutions",
@@ -68,7 +68,11 @@ export default function RootLayout({
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
         <link rel="stylesheet" href="/assets/css/fontawesome.min.css" />
         <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
-        <link rel="icon" type="image/x-icon" href="/assets/img/Favicon.png" />
+
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/faviconwobg.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/faviconwobg.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/faviconwobg.png" />
+        <link rel="shortcut icon" type="image/x-icon" href="/assets/img/faviconwobg.png" />
       </head>
       <body>
         {children}

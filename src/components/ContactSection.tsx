@@ -36,11 +36,10 @@ const ContactSection = () => {
 
     setStatus(prevStatus => ({ ...prevStatus, submitting: true }));
 
-    // TODO: Replace these with your actual EmailJS service, template, and user IDs
-    // You can get these values from your EmailJS dashboard: https://dashboard.emailjs.com/
-    const serviceId = 'YOUR_SERVICE_ID'; // e.g., 'service_abc123'
-    const templateId = 'YOUR_TEMPLATE_ID'; // e.g., 'template_xyz789'
-    const publicKey = 'YOUR_PUBLIC_KEY'; // e.g., 'AbCdEfGhIjKlMnOp'
+    
+    const serviceId = 'YOUR_SERVICE_ID'; 
+    const templateId = 'YOUR_TEMPLATE_ID'; 
+    const publicKey = 'YOUR_PUBLIC_KEY';
 
     emailjs.sendForm(serviceId, templateId, form.current, publicKey)
       .then((result) => {
@@ -50,7 +49,7 @@ const ContactSection = () => {
           submitting: false,
           info: { error: false, msg: 'Message sent successfully!' as string }
         });
-        // Reset form after submission
+        
         setFormData({
           name: '',
           email: '',
@@ -104,7 +103,7 @@ const ContactSection = () => {
                 </div>
                 <div className="detail__content">
                   <h3>Email</h3>
-                  <p>info@areion.biz</p>
+                  <p>business@areion.biz</p>
                 </div>
               </div>
 

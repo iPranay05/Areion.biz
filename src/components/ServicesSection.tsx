@@ -38,14 +38,14 @@ const ServicesSection = () => {
       id: 'digital-marketing',
       title: 'Digital Marketing',
       description: 'Digital marketing offers unparalleled targeting capabilities, allowing you to reach the right audience with the right message at the right time.',
-      icon: '/assets/img/megaphone.png',
+      icon: '/assets/img/digital_marketing.png',
       link: '/services/digital-marketing'
     },
     {
       id: 'seo-optimization',
       title: 'SEO Optimization',
       description: 'SEO optimization is a long-term strategy that can deliver sustainable organic traffic, reducing your reliance on paid advertising.',
-      icon: '/assets/img/bar-chart.png',
+      icon: '/assets/img/SEO.png',
       link: '/services/seo-optimization'
     }
   ];

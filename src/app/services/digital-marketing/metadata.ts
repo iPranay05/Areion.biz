@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://areion.biz/services/digital-marketing",
     images: [
       {
-        url: "/assets/img/digital-marketing-og.jpg",
+        url: "/assets/img/digital_marketing.png",
         width: 1200,
         height: 630,
         alt: "Areion Digital Marketing Services",
