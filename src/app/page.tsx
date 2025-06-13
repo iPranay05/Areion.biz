@@ -8,6 +8,7 @@ import TestimonialsSection from '@/components/TestimonialsSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import ChatbotSection from '@/components/ChatbotSection';
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   return (
@@ -25,5 +26,6 @@ export default function Home() {
       </main>
       <Footer />
       <ChatbotSection />
+      <Analytics />
     </>  );
 }
