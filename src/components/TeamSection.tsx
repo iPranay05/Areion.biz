@@ -36,7 +36,7 @@ const TeamSection = () => {
           </div>
         </div>
 
-        <div className="team__member">
+        {/* <div className="team__member">
           <div className="team__member-img">
             <Image src="/assets/img/niddhiwebs.png" alt="Team Member" width={300} height={300} />
           </div>
@@ -47,7 +47,7 @@ const TeamSection = () => {
               
             </div>
           </div>
-        </div>
+        </div> */}
 
     
       </div>

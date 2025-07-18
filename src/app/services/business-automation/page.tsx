@@ -112,7 +112,7 @@ const BusinessAutomationPage = () => {
           <div className="service-sidebar-card">
             <h3 className="service-sidebar-title">Ready to Get Started?</h3>
             <p>Contact us today to discuss how business automation can transform your operations.</p>
-            <Link href="/contact" className="service-cta-button">
+            <Link href="#contact" className="service-cta-button">
               Contact Us
             </Link>
           </div>

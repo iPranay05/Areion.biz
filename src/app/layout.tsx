@@ -57,6 +57,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        
         {/* Local CSS resources */}
         <link rel="stylesheet" href="/assets/css/styles.css" />
         <link rel="stylesheet" href="/assets/css/section-fixes.css" />
